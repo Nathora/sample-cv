@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rothana Ung – CV</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              primary: "#0f172a",    // Deep Sapphire Blue
+              secondary: "#00668c",  // Violet Indigo
+              sand: "#f5f4f1",       // Light background
+              soft: "#71c4ef"        // Hover accent
+            },
+            keyframes: {
+              "fade-in": {
+                "0%": { opacity: 0 },
+                "100%": { opacity: 1 }
+              },
+              "slide-up": {
+                "0%": { transform: "translateY(30px)", opacity: 0 },
+                "100%": { transform: "translateY(0)", opacity: 1 }
+              }
+            },
+            animation: {
+              "fade-in": "fade-in 1s ease-out",
+              "slide-up": "slide-up 1s ease-out"
+            }
+          }
+        }
+      };
+    </script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet" />
+    <style>
+      body {
+        font-family: 'Inter', sans-serif;
+      }
+    </style>
+  </head>
+
+  <body class="bg-sand text-primary">
+    <div class="max-w-5xl mx-auto p-8 animate-fade-in">
+
+      <!-- Header -->
+      <header class="flex items-center space-x-6 bg-white p-6 rounded-xl shadow-lg border border-gray-200 animate-slide-up">
+        <img
+          src="https://ui-avatars.com/api/?name=Rothana+Ung&background=00668c&color=fff&size=120"
+          alt="Profile Photo"
+          class="w-28 h-28 rounded-full border-4 border-secondary shadow-md transition-transform hover:scale-105"
+        />
+        <div>
+          <h1 class="text-4xl font-bold text-secondary">Rothana Ung</h1>
+          <p class="text-lg text-gray-600">Full-Stack Developer</p>
+          <p class="mt-2 text-sm text-gray-500">
+            <strong>Email:</strong> ungrothana010@gmail.com<br />
+            <strong>Phone:</strong> +855 78 729 000<br />
+            <strong>Location:</strong> Phnom Penh, Cambodia
+          </p>
+        </div>
+      </header>
+
+      <!-- Profile Summary -->
+      <section class="mt-10 animate-slide-up">
+        <h2 class="text-2xl font-semibold text-secondary mb-2">Profile Summary</h2>
+        <p class="text-gray-700 text-sm leading-relaxed">
+          Passionate full-stack developer with experience in Flutter, PHP, C#, and modern frontend frameworks.
+          Skilled in building high-performance mobile apps and backend APIs. I enjoy creating software
+          that solves real business problems and enhances user experience.
+        </p>
+      </section>
+
+      <!-- Skills -->
+      <section class="mt-10 animate-slide-up">
+        <h2 class="text-2xl font-semibold text-secondary mb-2">Skills</h2>
+        <div class="flex flex-wrap gap-2">
+          <span class="bg-secondary text-white text-xs font-medium px-3 py-1 rounded-full hover:bg-soft hover:scale-105 transition">Flutter / Dart</span>
+          <span class="bg-secondary text-white text-xs font-medium px-3 py-1 rounded-full hover:bg-soft hover:scale-105 transition">PHP (Laravel, CI)</span>
+          <span class="bg-secondary text-white text-xs font-medium px-3 py-1 rounded-full hover:bg-soft hover:scale-105 transition">C# / .NET</span>
+          <span class="bg-secondary text-white text-xs font-medium px-3 py-1 rounded-full hover:bg-soft hover:scale-105 transition">JavaScript / TypeScript</span>
+          <span class="bg-secondary text-white text-xs font-medium px-3 py-1 rounded-full hover:bg-soft hover:scale-105 transition">React / Vue</span>
+          <span class="bg-secondary text-white text-xs font-medium px-3 py-1 rounded-full hover:bg-soft hover:scale-105 transition">Node.js / Express</span>
+          <span class="bg-secondary text-white text-xs font-medium px-3 py-1 rounded-full hover:bg-soft hover:scale-105 transition">Tailwind CSS</span>
+          <span class="bg-secondary text-white text-xs font-medium px-3 py-1 rounded-full hover:bg-soft hover:scale-105 transition">MySQL / MSSQL</span>
+          <span class="bg-secondary text-white text-xs font-medium px-3 py-1 rounded-full hover:bg-soft hover:scale-105 transition">Firebase / Supabase</span>
+          <span class="bg-secondary text-white text-xs font-medium px-3 py-1 rounded-full hover:bg-soft hover:scale-105 transition">Git / GitHub</span>
+        </div>
+      </section>
+
+      <!-- Work Experience -->
+      <section class="mt-10 animate-slide-up">
+        <h2 class="text-2xl font-semibold text-secondary mb-4">Work Experience</h2>
+
+        <div class="mb-6">
+          <h3 class="text-lg font-semibold text-primary">Cloudnet Technology</h3>
+          <p class="text-sm text-gray-500 italic">Web & Software Developer</p>
+          <p class="text-sm text-gray-500">Technologies: PHP, CodeIgniter, Laravel</p>
+          <ul class="list-disc ml-5 text-sm text-gray-700 mt-2">
+            <li>Developed client-focused web applications with backend logic.</li>
+            <li>Worked on full-stack projects from concept to deployment.</li>
+          </ul>
+        </div>
+
+        <div>
+          <h3 class="text-lg font-semibold text-primary">Shimano Cambodia</h3>
+          <p class="text-sm text-gray-500 italic">Software Developer</p>
+          <p class="text-sm text-gray-500">Technologies: C#, SQL Server, SAP</p>
+          <ul class="list-disc ml-5 text-sm text-gray-700 mt-2">
+            <li>Created internal tools for manufacturing processes using C#.</li>
+            <li>Integrated SAP systems and automated reporting modules.</li>
+          </ul>
+        </div>
+      </section>
+
+      <!-- Education -->
+      <section class="mt-10 animate-slide-up">
+        <h2 class="text-2xl font-semibold text-secondary mb-2">Education</h2>
+        <p class="text-sm text-gray-700">
+          <strong>Bachelor of Computer Science</strong><br />
+          IIC University of Technology – Graduated: 2015
+        </p>
+      </section>
+
+      <!-- Projects -->
+      <section class="mt-10 animate-slide-up">
+        <h2 class="text-2xl font-semibold text-secondary mb-2">Projects</h2>
+        <ul class="list-disc ml-5 text-sm text-gray-700">
+          <li><strong>AZ Books</strong> – Online bookstore with secure payment and review system.</li>
+          <li><strong>ALIS International School</strong> – Flutter-based admin/student lunch system.</li>
+          <li><strong>KEP International School</strong> – Custom dashboard and app with student management.</li>
+          <li><strong>Other Tools</strong> – POS systems, dashboards, and automation tools for businesses.</li>
+        </ul>
+      </section>
+
+      <!-- Footer -->
+      <footer class="mt-12 text-center text-sm text-gray-500 animate-fade-in">
+        <p class="flex justify-center gap-6">
+          <a href="#" class="hover:text-secondary transition">🔗 LinkedIn</a>
+          <a href="#" class="hover:text-secondary transition">💻 GitHub</a>
+          <a href="#" class="hover:text-secondary transition">🌐 Portfolio</a>
+        </p>
+        <p class="mt-4">&copy; 2025 Rothana Ung. All rights reserved.</p>
+      </footer>
+    </div>
+  </body>
+</html>
