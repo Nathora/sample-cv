@@ -1,4 +1,4 @@
-# 🌟 Rothana Ung – Online CV (https://nathora.github.io/sample-cv/)
+# 🌟 Rothana Ung – Online CV (https://nathora.github.io/sample_cv/)
 
 This is a responsive and elegant **Online CV (Curriculum Vitae)** built with **Tailwind CSS**. It showcases the professional profile of Rothana Ung, a Full-Stack Developer with experience in Flutter, PHP, C#, and modern frontend technologies.
 
